@@ -56,31 +56,6 @@ export const Login: React.FC<LoginProps> = (props) => {
       <Wrapper flex variant="grey">
         <Box bg="white" height="440px" flex boxShadow="login" width={[1, 2 / 3, 'auto']}>
           <Box
-            bg="primary100"
-            color="white"
-            p="x3"
-            width="380px"
-            flexGrow={0}
-            display={['none', 'none', 'block']}
-            position="relative"
-          >
-            <H2 fontWeight="lighter">{translateLabel('loginWelcome')}</H2>
-            <Text fontWeight="lighter" mt="default">
-              {translateMessage('loginWelcome')}
-            </Text>
-            <Text textAlign="center" p="xxl">
-              <Box display="inline" mr="default">
-                <Illustration variant="Planet" width={82} height={91} />
-              </Box>
-              <Box display="inline">
-                <Illustration variant="Astronaut" width={82} height={91} />
-              </Box>
-              <Box display="inline" position="relative" top="-20px">
-                <Illustration variant="FlagInCog" width={82} height={91} />
-              </Box>
-            </Text>
-          </Box>
-          <Box
             as="form"
             action={action}
             method="POST"
@@ -88,7 +63,7 @@ export const Login: React.FC<LoginProps> = (props) => {
             flexGrow={1}
             width={['100%', '100%', '480px']}
           >
-            <H5 marginBottom="xxl">
+            <H5 marginBottom="xxl" style={{textAlign: 'center'}}>
               {branding.logo ? (
                 <StyledLogo
                   src={branding.logo}

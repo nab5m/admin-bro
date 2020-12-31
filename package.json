@@ -1,6 +1,6 @@
 {
-  "name": "admin-bro",
-  "version": "3.3.1",
+  "name": "@tirrilee/admin-bro",
+  "version": "1.0.2",
   "description": "Admin panel for apps written in node.js",
   "main": "index.js",
   "types": "index.d.ts",
@@ -51,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SoftwareBrothers/admin-bro.git"
+    "url": "https://github.com/nab5m/admin-bro"
   },
   "keywords": [
     "hapi",
@@ -73,7 +73,7 @@
   "bugs": {
     "url": "https://github.com/SoftwareBrothers/admin-bro/issues"
   },
-  "homepage": "https://github.com/SoftwareBrothers/admin-bro#readme",
+  "homepage": "https://github.com/nab5m/admin-bro#readme",
   "dependencies": {
     "@admin-bro/design-system": "^1.7.0",
     "@babel/core": "^7.10.2",
