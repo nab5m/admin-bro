@@ -25,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     margin: 0;
     padding: 0;
+    background: white;
   }
 `
 
@@ -33,6 +34,7 @@ const Wrapper = styled(Box)`
   justify-content: center;
   flex-direction: column;
   height: 100%;
+  background: white;
 `
 
 const StyledLogo = styled.img`
@@ -53,7 +55,7 @@ export const Login: React.FC<LoginProps> = (props) => {
   return (
     <React.Fragment>
       <GlobalStyle />
-      <Wrapper flex variant="grey">
+      <Wrapper flex>
         <Box bg="white" height="440px" flex boxShadow="login" width={[1, 2 / 3, 'auto']}>
           <Box
             as="form"
