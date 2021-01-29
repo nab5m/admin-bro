@@ -56,7 +56,7 @@ export const Login: React.FC<LoginProps> = (props) => {
     <React.Fragment>
       <GlobalStyle />
       <Wrapper flex>
-        <Box bg="white" height="440px" flex boxShadow="login" width={[1, 2 / 3, 'auto']}>
+        <Box bg="white" height="440px" flex width={[1, 2 / 3, 'auto']}>
           <Box
             as="form"
             action={action}
